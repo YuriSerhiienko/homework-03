@@ -32,3 +32,18 @@ def get_birthdays_per_week(users):
         if names:
             print(f"{weekday}: {', '.join(names)}")
 
+            
+if __name__ == "__main__":
+    users = [
+    {'name': 'John', 'birthday': "2020-04-29"},
+    {'name': 'Jane', 'birthday': "2023-04-30"},
+    {'name': 'Mike', 'birthday': "2023-05-01"},
+    {'name': 'Emily', 'birthday': "2023-05-02"},
+    {'name': 'Andrew', 'birthday': "2023-05-03"},
+    {'name': 'Karen', 'birthday': "2023-05-04"},
+    {'name': 'David', 'birthday': "2023-05-05"},
+    {'name': 'Alex', 'birthday': "2023-05-06"}
+    ]
+
+
+    get_birthdays_per_week(users)
